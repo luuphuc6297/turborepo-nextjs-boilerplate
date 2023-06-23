@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/nextjs.json",
+  "extends": "@mgslab/tsconfig/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -7,7 +7,6 @@
       "@/components/*": ["components/*"],
       "@/libs/*": ["libs/*"],
       "@/server/*": ["server/*"],
-      "@prisma/client/*": ["@calcom/prisma/client/*"]
     }
   },
   "include": [

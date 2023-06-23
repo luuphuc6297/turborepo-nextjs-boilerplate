@@ -28,7 +28,7 @@ export default function MgsLabDocument({ emotionStyleTags }: MyDocumentProps) {
     )
 }
 
-ColFeDocument.getInitialProps = async (ctx: DocumentContext) => {
+MgsLabDocument.getInitialProps = async (ctx: DocumentContext) => {
     const sheets = new ServerStyleSheets()
     const originalRenderPage = ctx.renderPage
 
