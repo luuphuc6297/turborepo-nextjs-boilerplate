@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@mgslab/web",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@casl/ability": "^6.5.0",
+    "@casl/react": "^3.1.0",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.1.1",
+    "@mgslab/tsconfig": "*",
+    "@mgslab/ui": "*",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/styles": "^5.13.2",
+    "i18next": "^23.2.3",
+    "i18next-browser-languagedetector": "^7.0.2",
+    "i18next-http-backend": "^2.2.1",
+    "i18next-xhr-backend": "^3.2.2",
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "*"
+    "react-i18next": "^13.0.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",

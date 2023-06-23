@@ -1,4 +1,16 @@
-module.exports = {
+require("dotenv").config({ path: "../../.env" });
+
+/** @type {import("next").NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ["ui"],
-};
+  i18n: {
+    locales: ['en', 'vi'],
+    defaultLocale: 'en',
+  },
+  transpilePackages: [
+    "@mgslab/ui",
+  ],
+}
+
+
+module.exports = nextConfig

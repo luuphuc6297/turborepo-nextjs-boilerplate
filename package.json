@@ -13,7 +13,7 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "name": "turborepo-nextjs-boilerplate",
+  "name": "mgslab-monorepo",
   "packageManager": "yarn@1.22.19",
   "workspaces": [
     "apps/*",
