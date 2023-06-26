@@ -1,19 +1,20 @@
 import { Shadows, createTheme } from '@mui/material/styles'
 
+
+// Public folder from web app. Read more: https://turbo.build/pack/docs/features/static-assets
 const fontFace = `
 @font-face {
-    font-family: 'Clash Display Bold';
-    src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('opentype');
+    font-family: 'Be Vietnam Pro Thin';
+    src: url('./fonts/be-vietnam/BeVietnamPro-Thin.ttf') format('truetype');
 }
 `
-
 const theme = createTheme({
     palette: {
         action: {
             disabled: 'rgba(233, 233, 240, 1)',
         },
         primary: {
-            main: 'rgba(91, 78, 250, 1)',
+            main: 'rgba(0, 0, 0, 1)',
         },
         secondary: {
             main: '#28245E',
@@ -80,7 +81,7 @@ const theme = createTheme({
             letterSpacing: 'normal',
         },
         button: {
-            fontFamily: 'Linik Sans Bold',
+            fontFamily: 'Be Vietnam Pro Thin',
             fontSize: 16,
             letterSpacing: 'normal',
         },

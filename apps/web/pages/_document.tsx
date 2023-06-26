@@ -1,5 +1,5 @@
-import createEmotionCache from '@/libs/configs/createEmotionCache';
 import createEmotionServer from '@emotion/server/create-instance';
+import { createEmotionCache } from '@mgslab/libs/configs';
 import { ServerStyleSheets } from '@mui/styles';
 import Document, {
     DocumentContext,

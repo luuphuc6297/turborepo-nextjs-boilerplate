@@ -8,5 +8,6 @@
     "module": "ESNext",
     "target": "es6"
   },
-  "include": [".", "../types/next-auth.d.ts"]
+  "include": [".", "../types/next-auth.d.ts"],
+  "exclude": ["dist", "build", "node_modules"]
 }

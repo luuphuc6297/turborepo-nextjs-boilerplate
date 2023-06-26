@@ -50,13 +50,3 @@ export const buildCanonical = ({ origin, path }: { origin: Location['origin']; p
 }
 
 
-export const constructGenericImage = ({ title, description }: GenericImageProps, encodeUri = true) => {
-    const url = [
-        `?type=generic`,
-        `&title=${encodeURIComponent(title)}`,
-        `&description=${encodeURIComponent(description)}`,
-        // Joining a multiline string for readability.
-    ].join("");
-
-    return encodeUri ? encodeURIComponent(url) : url;
-};

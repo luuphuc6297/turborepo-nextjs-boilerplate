@@ -9,7 +9,6 @@ interface TextButtonProps {
 const StyledTextButton = styled(Button)(({ theme }) => ({
     fontSize: 16,
     lineHeight: '24px',
-    fontFamily: 'Linik Sans Semi Bold',
     textTransform: 'capitalize',
 }))
 
